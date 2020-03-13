@@ -1,0 +1,12 @@
+#box1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:lightcyan;
+    border-radius:15%;
+    width:50%;
+    height:20%;
+    padding:10%;
+    margin:30%;
+}
