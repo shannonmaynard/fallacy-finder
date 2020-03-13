@@ -1,0 +1,93 @@
+body {
+    background-color: lightyellow;
+}
+
+#box1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:lightcyan;
+    border-radius:15%;
+    width:50%;
+    height:20%;
+    padding:10%;
+    margin:30%;
+}
+
+.definitions {
+    background-color:white;
+    border-style:solid;
+    border-color:gray;
+    margin:20px;
+    margin-left:23%;
+    padding:5%;
+    width:50%;
+} 
+
+#fallacies {
+    flex-direction: column;
+}
+
+#img {
+    width:50%;
+    height:50%;
+    border-radius:10%;
+}
+#image {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding:8%;
+}
+
+#box2 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+    background-color:lightcyan;
+    border-radius:10%;
+    width:50%;
+}
+#centerbox {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+
+}
+
+#centerbox2 {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height:200px;
+    width:100%;
+}
+
+#img2 {
+    width:15%;
+    height:15%;
+    position:absolute;
+    left:21%;
+}
+
+.option {
+    background-color:skyblue;
+    border-radius: 50%;
+    color:black;
+    font-size:150%;
+    margin-top:600%;
+    
+}
+
+#buttonsabc {
+    flex-direction: column;
+    display:flex;
+    position:absolute;
+    left:30%;
+    bottom:-30%;
+    justify-content: space-between;
+    
+    
+}
