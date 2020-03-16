@@ -1,25 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="comps/button/button.css" rel="stylesheet" type="text/css">
-    <link href="comps/congrats/congrats.css" rel="stylesheet" type="text/css">
-    <link href="comps/correct/correct.css" rel="stylesheet" type="text/css">
-    <link href="comps/fail/fail.css" rel="stylesheet" type="text/css">
-    <link href="comps/Info/info.css" rel="stylesheet" type="text/css">
-    <link href="comps/intro/intro.css" rel="stylesheet" type="text/css">
-    <link href="comps/intro2/intro2.css" rel="stylesheet" type="text/css">
-    <link href="comps/owlpicture/owlpicture.css" rel="stylesheet" type="text/css">
-    <link href="comps/Picture/picture.css" rel="stylesheet" type="text/css">
-    <link href="comps/Quiz/quiz.css" rel="stylesheet" type="text/css">
-    <link href="comps/wrong/wrong.css" rel="stylesheet" type="text/css">
-    
- 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="comps/button/button.css" rel="stylesheet" type="text/css">
+  <link href="comps/congrats/congrats.css" rel="stylesheet" type="text/css">
+  <link href="comps/correct/correct.css" rel="stylesheet" type="text/css">
+  <link href="comps/fail/fail.css" rel="stylesheet" type="text/css">
+  <link href="comps/Info/info.css" rel="stylesheet" type="text/css">
+  <link href="comps/intro/intro.css" rel="stylesheet" type="text/css">
+  <link href="comps/intro2/intro2.css" rel="stylesheet" type="text/css">
+  <link href="comps/owlpicture/owlpicture.css" rel="stylesheet" type="text/css">
+  <link href="comps/Picture/picture.css" rel="stylesheet" type="text/css">
+  <link href="comps/Quiz/quiz.css" rel="stylesheet" type="text/css">
+  <link href="comps/wrong/wrong.css" rel="stylesheet" type="text/css">
+  <link href="index.css" rel="stylesheet" type="text/css">
+
+
 </head>
+
 <body>
+  <div id="quizpage">
+    <div id="box1">
+      <div id="title"> 
+          <h1> Scenario 1 </h1> 
+      </div>
+  
+      <div id="q1"> 
+          <p> My sixth-grade teacher said that all old people are bad drivers. So it must be true. 
+          </p> 
+      </div>
+    </div>
+    <div id="image">
+      
+      <div id="owl_quiz">
+        <img src="comps/owlpicture/imgss/owl.png" id="img2">
+      </div>
+      <img src="comps/Picture/imgs/carcrash.jpg" id="img">
+    </div>
+    <div id="box2">
+
+      <div id="title">
+        <h1> Which Fallacy is This?</h1>
+      </div>
+
+      <div id="fallacies">
+        <div class="definitions">
+          <div class="buttonorganizer">
+            <button id="option1"> a </button>
+            <h3>Bandwagon </h3>
+          </div>
+          <div class="text_def">
+            <p> Believing that the opinion of the majority is always right. Because everyone believes it so you should
+              too.</p>
+          </div>
+        </div>
+        <div class="definitions">
+          <div class="buttonorganizer">
+            <button id="option2"> a </button>
+            <h3>Genetic Fallacy </h3>
+          </div>
+          <div class="text_def">
+            <p> Believing that the opinion of the majority is always right. Because everyone believes it so you should
+              too.</p>
+          </div>
+        </div>
+        <div class="definitions">
+          <div class="buttonorganizer">
+            <button id="option3"> a </button>
+            <h3>Appeal to Fear</h3>
+          </div>
+          <div class="text_def">
+            <p> Believing that the opinion of the majority is always right. Because everyone believes it so you should
+              too.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button id="button-first-page" onclick="NextQuiz()">SUBMIT</button>
+  </div>
+
+  <div id="intropage" onclick="ShowQuiz()">
+    <div class="first-page">
+        <div class="center-items">
+            <img src="comps/intro/logo.png" id="magnifying-glass">
+            <div class="intro-text">
+                <h3>Welcome to...</h3>
+                <h1>Fallacy Finder</h1>
+                
+            </div>
+        </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
   <script src="comps/congrats/congrats.js"> </script>
   <script src="comps/button/button.js"> </script>
   <script src="comps/correct/correct.js"> </script>
@@ -31,6 +107,7 @@
   <script src="comps/Picture/picture.js"> </script>
   <script src="comps/Quiz/quiz.js"> </script>
   <script src="comps/wrong/wrong.js"> </script>
-  
+
 </body>
+
 </html>
