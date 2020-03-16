@@ -1,0 +1,56 @@
+#box2 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+    background-color:lightcyan;
+    border-radius:10%;
+    width:50%;
+}
+
+#option1 {
+    background-color:skyblue;
+    border-radius: 50%;
+    color:black;
+    font-size:15px;
+    margin:3%;
+    
+}
+
+#option2 {
+    background-color:skyblue;
+    border-radius: 50%;
+    color:black;
+    font-size:15px;
+    margin:3%;
+    
+}
+
+#option3 {
+    background-color:skyblue;
+    border-radius: 50%;
+    color:black;
+    font-size:15px;
+    margin:3%;
+    
+}
+
+.buttonorganizer {
+    flex-direction: row;
+    display:flex;
+    margin:5%;
+}
+
+.text_def {
+    margin-left:8%;
+    margin-right:8%;
+}
+
+#title {
+    margin:5%;
+    
+}
+
+#fallacies {
+    margin-bottom:5%;
+}
