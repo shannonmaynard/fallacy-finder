@@ -18,22 +18,25 @@
   <link href="comps/Quiz/quiz.css" rel="stylesheet" type="text/css">
   <link href="comps/wrong/wrong.css" rel="stylesheet" type="text/css">
   <link href="index.css" rel="stylesheet" type="text/css">
-
+  <link href="https://fonts.googleapis.com/css?family=Irish+Grover&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kreon&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
   <!--Intro-->
-  <div class="first-page">
-    <div class="center-items">
-        <img src="logo.png" id="magnifying-glass">
-        <div class="intro-text">
-            <h3>Welcome to...</h3>
-            <h1>Fallacy Finder</h1>
-            
+  <div id="intropage" onclick="ShowQuiz()">
+    <div class="first-page">
+        <div class="center-items">
+            <img src="comps/intro/logo.png" id="magnifying-glass">
+            <div class="intro-text">
+                <h3>Welcome to...</h3>
+                <h1>Fallacy Finder</h1>
+                
+            </div>
         </div>
     </div>
-</div>
+  </div>
 <!--Intro ends-->
 
 <!--Intro 2-->
@@ -42,7 +45,7 @@
           <img id="speech-bubble-img" src="comps/imgsss/bubble.svg">
           <button class="main-button" id="second-page-button">BEGIN</button>
       <div id="owl">
-          <img src="comps/imgsss/owl1.svg" id="owl1">
+          <img src="comps/imgsss/owl1.png" id="owl1">
       </div>
   </div>
 </div>
@@ -108,18 +111,7 @@
     <button class="main-button" onclick="NextQuiz()">SUBMIT</button>
   </div>
 
-  <div id="intropage" onclick="ShowQuiz()">
-    <div class="first-page">
-        <div class="center-items">
-            <img src="comps/intro/logo.png" id="magnifying-glass">
-            <div class="intro-text">
-                <h3>Welcome to...</h3>
-                <h1>Fallacy Finder</h1>
-                
-            </div>
-        </div>
-    </div>
-  </div>
+
   <script src="index.js"></script>
   <script src="comps/congrats/congrats.js"> </script>
   <script src="comps/button/button.js"> </script>
