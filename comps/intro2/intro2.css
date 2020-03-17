@@ -1,7 +1,7 @@
 .second-page {
     height: 100vh;
     width: 100vw;
-    background-color: #FFEB84;
+    background-color: blue;
 }
 
 
@@ -27,16 +27,15 @@ button {
 
 }
 #owl1 {
+    display: flex;
     width: 120%;
     height: auto;
-    position: relative;
     left: 50px;
     top: 80px;
     margin-right: 20px;
 }
 
 #speech-bubble-img{
-    position: absolute;
     width: 60%;
     height: auto;
     right: 70px;
