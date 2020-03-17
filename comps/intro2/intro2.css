@@ -7,9 +7,6 @@
 
 .first-two-items{
     display: flex;
-    height: 60%;
-    width: 70%;
-    flex-direction: row;
 }
 
 
