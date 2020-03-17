@@ -8,32 +8,36 @@
     background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius:10%;
     width:70%;
+    margin-top: 20px;
 }
 
 #option1 {
-    background-color:skyblue;
-    border-radius: 50%;
+    background-color:#bfedff;
+    border-radius: 40%;
     color:black;
     font-size:15px;
     margin:3%;
+    padding: 15px;
     
 }
 
 #option2 {
-    background-color:skyblue;
-    border-radius: 50%;
+    background-color:#bfedff;
+    border-radius: 40%;
     color:black;
     font-size:15px;
     margin:3%;
+    padding: 15px;
     
 }
 
 #option3 {
-    background-color:skyblue;
-    border-radius: 50%;
+    background-color:#bfedff;
+    border-radius: 40%;
     color:black;
     font-size:15px;
     margin:3%;
+    padding: 15px;
     
 }
 
@@ -41,6 +45,8 @@
     flex-direction: row;
     display:flex;
     margin:5%;
+    height: 80px;
+    align-items: center;
 }
 
 .text_def {
