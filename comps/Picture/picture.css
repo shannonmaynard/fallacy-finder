@@ -1,9 +1,19 @@
+#owl_quiz #img2{
+    width: 20%;
+    height: auto;
+    margin-top: -30px;
+    margin-left: -40px;
+
+}
 #img {
+    margin-top: -30px;
     width:100%;
     height:auto;
     border-radius:10%;
+
 }
 
 #image {
-    width:50%;
+    width:70%;
 }
+
