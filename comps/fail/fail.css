@@ -1,4 +1,4 @@
-#body {
+#failpage {
     height: 100vh;
     width: 100vw;
     background-color: #5B89FF;
@@ -7,13 +7,13 @@
     display: flex;
 }
 
-#wrong1 {
+#fail1 {
     font-family: 'Kreon', serif;
     text-align: center;
     font-size: 40pt;
 }
 
-#wrong2 {
+#fail2 {
     font-family: 'Hind Siliguri', sans-serif;
     text-align: center;
     font-size: 20pt;
