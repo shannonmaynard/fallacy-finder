@@ -10,6 +10,7 @@
 }
 
 #wrong1 {
+    margin-top: -25px;
     font-family: 'Kreon', serif;
     text-align: center;
     font-size: 40pt;
@@ -32,9 +33,9 @@
 }
 
 #wrong-page-owl {
-position: absolute;
+margin-top: 10px;
 left: 10%;
 top: 5%;
 width: auto;
-height: 40%;
+height: 20%;
 }

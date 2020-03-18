@@ -26,8 +26,8 @@
     border-radius:40px;
 }
 
-#owl {
-    position: absolute;
+#correct-page-owl {
+    margin-top: 10px;
     left: 10%;
     top: 5%;
     height: 20%;
