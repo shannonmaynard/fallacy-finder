@@ -18,11 +18,41 @@
   <link href="comps/Quiz/quiz.css" rel="stylesheet" type="text/css">
   <link href="comps/wrong/wrong.css" rel="stylesheet" type="text/css">
   <link href="index.css" rel="stylesheet" type="text/css">
-
+  <link href="https://fonts.googleapis.com/css?family=Irish+Grover&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kreon&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+  <!--Intro-->
+    <div class="first-page">
+        <div class="center-items">
+            <img src="comps/intro/logo.png" id="magnifying-glass">
+            <div class="intro-text">
+                <h3>Welcome to...</h3>
+                <h1>Fallacy Finder</h1>
+            </div>
+        </div>
+        <div id="first-page-button">
+          <button class="main-button">START</button>
+        </div>
+    </div>
+  </div>
+<!--Intro end-->
+
+<!--Intro 2-->
+<div id="second-page">
+  <div class="first-two-items">
+    <div id="second-page-owl"><img src="comps/imgsss/owl1.png" id="second-page-owl1"></div>
+      <img id="speech-bubble-img" src="comps/imgsss/bubble.svg">
+  </div>
+  <div id="second-page-button">
+    <button class="main-button">BEGIN</button>
+  </div>
+</div>
+<!--Intro 2 end-->
+
+<!--Quiz page-->
   <div id="quizpage">
     <div id="box1">
       <div id="title"> 
@@ -34,8 +64,7 @@
           </p> 
       </div>
     </div>
-    <div id="image">
-      
+    <div id="image">  
       <div id="owl_quiz">
         <img src="comps/owlpicture/imgss/owl.png" id="img2">
       </div>
@@ -48,7 +77,7 @@
       </div>
 
       <div id="fallacies">
-        <div class="definitions">
+        <div class="definitions1">
           <div class="buttonorganizer">
             <button id="option1"> a </button>
             <h3>Bandwagon </h3>
@@ -58,9 +87,9 @@
               too.</p>
           </div>
         </div>
-        <div class="definitions">
+        <div class="definitions2">
           <div class="buttonorganizer">
-            <button id="option2"> a </button>
+            <button id="option2"> b </button>
             <h3>Genetic Fallacy </h3>
           </div>
           <div class="text_def">
@@ -68,9 +97,9 @@
               too.</p>
           </div>
         </div>
-        <div class="definitions">
+        <div class="definitions3">
           <div class="buttonorganizer">
-            <button id="option3"> a </button>
+            <button id="option3"> c </button>
             <h3>Appeal to Fear</h3>
           </div>
           <div class="text_def">
@@ -80,21 +109,102 @@
         </div>
       </div>
     </div>
-    <button id="button-first-page" onclick="NextQuiz()">SUBMIT</button>
-  </div>
-
-  <div id="intropage" onclick="ShowQuiz()">
-    <div class="first-page">
-        <div class="center-items">
-            <img src="comps/intro/logo.png" id="magnifying-glass">
-            <div class="intro-text">
-                <h3>Welcome to...</h3>
-                <h1>Fallacy Finder</h1>
-                
-            </div>
-        </div>
+    <div id="submit-q1">
+      <button class="main-button" onclick="NextQuiz()">SUBMIT</button>
     </div>
   </div>
+</div>
+<!--Quiz page end-->
+
+<!--Correct page-->
+<div id="correctbox">
+  <img src = comps/imgsss/owl1.png id="correct-page-owl">
+  <div id="yellow">
+<div id="correct1">
+  <br>
+  Correct!
+  <div id="correct2">
+    <div id="words-in-correct-box">
+  This is the <B>‘Genetic fallacy’!</B> <br><br>
+  Mr. Harris is teaching his student
+  that all old people are bad drivers. Perhaps in his experience
+  he’s seen many old people with bad driving. He’s judged them 
+  based on their genetics!
+      </div>
+    </div>
+  </div>
+</div>
+<button class="main-button">NEXT</button>
+</div>
+<!--Correct page end-->
+
+<!--Wrong page-->
+<div id="body">
+  <img src = comps/wrong/owl3.png id="wrong-page-owl">
+  <div id="blue">
+<div id="wrong1">
+  <br>
+  Wrong!
+  <div id="wrong2"><br>
+    This is the <B>‘Genetic fallacy’!</B> <br><br>
+    Mr. Harris is teaching his student
+    that all old people are bad drivers. Perhaps in his experience
+    he’s seen many old people with bad driving. He’s judged them 
+    based on their genetics!
+  </div>
+  </div>
+</div>
+<button class="main-button">NEXT</button>
+</div>
+<!--Wrong page end-->
+
+<!--Congrats page-->
+<div id="congratspage">
+    <img src = owl1.png id="owl">
+    <div id="yellow">
+<div id="congrats1">
+    <br>
+    Congratulations!!!
+    <br>
+    <br>
+    You got 5/5!
+    <div id="congrats2">
+    <br> 
+    You are now on your way to becoming
+    <br> 
+    a master fallacy finder! 
+    <br>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--Congrats page end-->
+
+<!--Fail Page-->
+
+<div id="failpage">
+    <img src = owl3.png id="owl">
+    <div id="blue">
+<div id="fail1">
+    <br>
+    Better Luck Next Time!
+    <br>
+    <br>
+    You got 1/5!
+    <div id="fail2">
+    <br> 
+    Don't give up on your journey to
+    <br> 
+    becoming a master fallacy finder! 
+    <br>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--Fail Page end-->
+
   <script src="index.js"></script>
   <script src="comps/congrats/congrats.js"> </script>
   <script src="comps/button/button.js"> </script>

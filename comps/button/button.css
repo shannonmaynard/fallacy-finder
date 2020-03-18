@@ -1,9 +1,11 @@
-#button-first-page {
-    margin-top: 10%;
-    height: 60px;
+.main-button {
+    height: 50px;
     width: 130px;
     border-radius: 50px;
-    font-size: 24;
-    font-size: 100%;
-    background-color: white;
+    font-size: 24px;
+    background: white;
+    font-family: 'Gill Sans', serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
 }
