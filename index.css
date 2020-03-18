@@ -19,3 +19,13 @@
   display: flex;
   flex-direction:column;
 }
+
+#correctbox{
+  display: flex;
+  flex-direction:column;
+}
+
+#body{
+  display: flex;
+  flex-direction:column;
+}
