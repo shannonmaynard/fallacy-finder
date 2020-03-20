@@ -28,9 +28,7 @@
 }
 
 #fail-owl {
-position: absolute;
-left: 10%;
-top: 5%;
-width: auto;
-height: 40%;
-}
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    }
