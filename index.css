@@ -1,5 +1,5 @@
 #quizpage {
-  display:flex;
+  display:none;
   align-items: center;
   justify-content: center;
   flex-direction:column;
@@ -9,7 +9,7 @@
 }
 
 #second-page {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   flex-direction:column;
@@ -21,11 +21,19 @@
 }
 
 #correctbox{
-  display: flex;
+  display: none;
   flex-direction:column;
 }
 
 #body{
-  display: flex;
+  display: none;
   flex-direction:column;
+}
+
+#congratspage{
+  display: none;
+}
+
+#fail-page{
+  display: none;
 }
