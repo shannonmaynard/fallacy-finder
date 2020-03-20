@@ -7,4 +7,4 @@ function ShowQuizPage(){
     document.querySelector("#congratspage").style.display = "none";
     document.querySelector("#fail-page").style.display = "none";
   }
-
+  
