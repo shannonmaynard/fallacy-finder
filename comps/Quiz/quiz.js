@@ -1,6 +1,6 @@
 function NextQuiz(){
   s_ind++;
-  document.querySelector("#quizpage #title").innerHTML = scenarios[s_ind].title;
+  document.querySelector("#quizpage #title h2).innerHTML = scenarios[s_ind].title;
 }
 
 function ChangeBtnColorOption1(){
