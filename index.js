@@ -46,7 +46,7 @@ var scenarios = [
     answer:3,
     
     option1:"Two Wrongs Make a Right",
-    option1def:"",
+    option1def:"When someone argues that it's okay for you to do something wrong as long as somebody else did a wrong thing first.",
     option2:"Genetic Fallacy",
     option2def:"When you judge someone based on their origin (who they are, where they come from), instead of relying on actual evidence",
     option3:"Appeal to Fear",
