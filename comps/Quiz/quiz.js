@@ -4,9 +4,9 @@ function NextQuiz(){
   document.querySelector("#quizpage").style.display = "flex";
   if(s_ind > 4) {
     if(correct > 3){
-      document.querySelector("#congratspage").style.display = "flex";
+      alert("You passed!");
     } else {
-      document.querySelector("#fail-page").style.display = "flex";
+      alert("You failed...");
     }
   } else {
   s_ind++;
@@ -30,10 +30,10 @@ function NextQuiz(){
 
 
 function CheckAnswers(){
-  if (user_answer === scenarios[s_ind].correct){
+  if (user_answer === scenarios[s_ind].answer){
   document.querySelector("#correctbox").style.display = "flex";
   document.querySelector("#quizpage").style.display = "none";
-  correct_answer++;
+  
   
   document.querySelector("#correct-page-owl").src = scenarios[s_ind].correct.correctimage;
   document.querySelector("#words-in-correct-box").innerHTML = scenarios[s_ind].correct.correctreason;
