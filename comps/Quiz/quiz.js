@@ -2,7 +2,7 @@ function NextQuiz(){
   document.querySelector("#correctbox").style.display = "none";
   document.querySelector("#body").style.display = "none";
   document.querySelector("#quizpage").style.display = "flex";
-  if(s_ind > 5) {
+  if(s_ind > 4) {
     if(correct > 3){
       document.querySelector("#congratspage").style.display = "flex";
       document.querySelector("#fail-page").style.display = "none";
@@ -31,11 +31,13 @@ function NextQuiz(){
 }
 
 
+
+
 function CheckAnswers(){
   if (user_answer === scenarios[s_ind].answer){
   document.querySelector("#correctbox").style.display = "flex";
   document.querySelector("#quizpage").style.display = "none";
-  
+  correct_answer++;
   
   document.querySelector("#correct-page-owl img").src = scenarios[s_ind].correct.correctimage;
   document.querySelector("#words-in-correct-box").innerHTML = scenarios[s_ind].correct.correctreason;
