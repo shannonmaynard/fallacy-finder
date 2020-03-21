@@ -2,11 +2,13 @@ function NextQuiz(){
   document.querySelector("#correctbox").style.display = "none";
   document.querySelector("#body").style.display = "none";
   document.querySelector("#quizpage").style.display = "flex";
-  if(s_ind > 4) {
+  if(s_ind > 5) {
     if(correct > 3){
-      alert("You passed!");
+      document.querySelector("#congratspage").style.display = "flex";
+      document.querySelector("#fail-page").style.display = "none";
     } else {
-      alert("You failed...");
+      document.querySelector("#congratspage").style.display = "none";
+      document.querySelector("#fail-page").style.display = "flex";
     }
   } else {
   s_ind++;
@@ -35,14 +37,14 @@ function CheckAnswers(){
   document.querySelector("#quizpage").style.display = "none";
   
   
-  document.querySelector("#correct-page-owl").src = scenarios[s_ind].correct.correctimage;
+  document.querySelector("#correct-page-owl img").src = scenarios[s_ind].correct.correctimage;
   document.querySelector("#words-in-correct-box").innerHTML = scenarios[s_ind].correct.correctreason;
 
 } else {
   document.querySelector("#body").style.display = "flex";
   document.querySelector("#quizpage").style.display = "none";
 
-  document.querySelector("#wrong-page-owl").src = scenarios[s_ind].wrong.wrongimage;
+  document.querySelector("#wrong-page-owl img").src = scenarios[s_ind].wrong.wrongimage;
   document.querySelector("#wrong2").innerHTML = scenarios[s_ind].wrong.wrongreason;
 }
 }
