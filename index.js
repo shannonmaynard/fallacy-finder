@@ -7,7 +7,6 @@ var scenarios = [
   {
     title:"Scenario 1",
     desc:"My sixth-grade teacher said that all old people are bad drivers. So it must be true.",
-    img2:"comps/owlpicture/imgss/owl.png",
     img:"comps/Picture/imgs/carcrash.jpg",
 
     answer:2,

@@ -2,7 +2,6 @@ function NextQuiz(){
   s_ind++;
   document.querySelector("#title h2").innerHTML = scenarios[s_ind].title;
   document.querySelector("#q1 p").innerHTML = scenarios[s_ind].desc;
-
   document.querySelector("#img").src = scenarios[s_ind].img;
  
   //title and definition for the different option 1 - eg. Bandwagon and its definition
