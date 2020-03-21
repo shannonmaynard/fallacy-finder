@@ -55,7 +55,7 @@
 <!--Quiz page-->
   <div id="quizpage">
     <div id="box1">
-      <div id="title"> 
+      <div class="title"> 
           <h2> Scenario 1 </h2> 
       </div>
   
@@ -72,7 +72,7 @@
     </div>
     <div id="box2">
 
-      <div id="title">
+      <div id="small-title">
         <h1> Which Fallacy is This?</h1>
       </div>
 
@@ -108,7 +108,7 @@
       </div>
     </div>
     <div id="submit-q1">
-      <button class="main-button" onclick="NextQuiz()">SUBMIT</button>
+      <button onclick="CheckAnswers()" class="main-button">SUBMIT</button>
     </div>
   </div>
 </div>
@@ -132,7 +132,7 @@
     </div>
   </div>
 </div>
-<button class="main-button">NEXT</button>
+<button onclick="NextQuiz()" class="main-button">NEXT</button>
 </div>
 <!--Correct page end-->
 
@@ -152,7 +152,7 @@
   </div>
   </div>
 </div>
-<button class="main-button">NEXT</button>
+<button onclick="NextQuiz()" class="main-button">NEXT</button>
 </div>
 <!--Wrong page end-->
 
@@ -163,8 +163,6 @@
     <br>
     Congratulations!!!
     <br>
-    <br>
-    You got 5/5!
     <div id="congrats2">
     <br> 
     You are now on your way to becoming
@@ -186,8 +184,6 @@
     <br>
     Better Luck Next Time!
     <br>
-    <br>
-    You got 1/5!
     <div id="fail2">
     <br> 
     Don't give up on your journey to
